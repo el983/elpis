@@ -12,7 +12,7 @@ const VantaGlobe = () => {
       el: vantaRef.current,
       mouseControls: true,
       touchControls: true,
-      gyroControls: false,
+      gyroControls: true,
       minHeight: 20.0,
       minWidth: 200.0,
       scale: 1.0,
