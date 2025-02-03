@@ -4,7 +4,7 @@ import React from 'react';
 const DolphinSection = () => {
   return (
     <section style={styles.section}>
-      <h2 style={styles.heading}>Watch the Dolphin Swim!</h2>
+      // <h2 style={styles.heading}>Watch the Dolphin Swim!</h2>
       <div style={styles.gifContainer}>
         <img 
           src="/dolphin.gif" 
