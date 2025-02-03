@@ -24,3 +24,53 @@
   pointer-events: none; /* Ensure clicks pass through to the globe */
   
 }
+/* image gallery */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.image-gallery img {
+  width: 1080px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideIn 1s ease-in-out forwards;
+}
+
+/* Staggered animation effect */
+.image-gallery img:nth-child(1) { animation-delay: 3s; }
+.image-gallery img:nth-child(2) { animation-delay: 4.0s; }
+.image-gallery img:nth-child(3) { animation-delay: 5.0s; }
+.image-gallery img:nth-child(4) { animation-delay: 6.0s; }
+.image-gallery img:nth-child(5) { animation-delay: 7s; }
+.image-gallery img:nth-child(6) { animation-delay: 8.2s; }
+.image-gallery img:nth-child(7) { animation-delay: 9.4s; }
+.image-gallery img:nth-child(8) { animation-delay: 10.6s; }
+.image-gallery img:nth-child(9) { animation-delay: 11.0s; }
+.image-gallery img:nth-child(10) { animation-delay: 12s; }
+.image-gallery img:nth-child(11) { animation-delay: 13.2s; }
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover Effect */
+.image-gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
