@@ -56,7 +56,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="footer-bottom">
-        <p>© 2023 All Rights Reserved by Sikharthy Infotech</p>
+        <p>© 2025 All Rights Reserved by Sikharthy Infotech</p>
         <div className="footer-links">
           <a href="#">Terms and Conditions</a>
           <a href="#">Privacy Policy</a>
