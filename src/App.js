@@ -94,8 +94,7 @@ function App() {
 
       {/* Image Gallery */}
       <div style={{ padding: '20px', textAlign: 'center' }}>
-        <h1>Welcome to My Website</h1>
-        <p>Scroll down to see the globe move!</p>
+        <h1>Welcome to My Website</h1>        
         <div style={{ height: 'auto', background: '#f0f0f0', padding: '20px' }}>
           <h2>Image Gallery</h2>
           <div className="image-gallery">
