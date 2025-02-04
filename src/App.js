@@ -52,7 +52,7 @@ function AboutUs() {
         <div className="profile">
           <img src={Profile2} alt="Profile 2" />
           <h3>Vijay Chandra</h3>          
-          <p>Digital Marketing Specialist</p>
+          <p>Fashion Brand Management International</p>
         </div>
         <div className="profile">
           <img src={Profile3} alt="Profile 3" />
