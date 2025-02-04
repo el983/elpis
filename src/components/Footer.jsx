@@ -27,17 +27,16 @@ const Footer = () => {
         {/* Contact Details */}
         <div className="footer-section">
           <h2>Contact Details</h2>
-          <p>+91-8276-878-233</p>
-          <p>info@siplhub.com</p>
+          <p>+91-00000 00000</p>
+          <p>demo@demo.com</p>
         </div>
 
         {/* Address */}
         <div className="footer-section">
           <h2>Address</h2>
           <p>
-            PS SRIJAN CORPORATE PARK, Street Number 25, <br />
-            GP Block Tower 1, 11th Floor AKASA, Sector V, Bidhannagar, <br />
-            Kolkata, West Bengal 700091
+            Kolkata
+            West Bengal
           </p>
         </div>
 
