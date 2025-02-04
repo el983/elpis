@@ -43,6 +43,8 @@
   opacity: 0;
   transform: translateY(50px);
   animation: slideIn 1s ease-in-out forwards;
+  z-index: 200;
+  position: relative;
 }
 
 /* Staggered animation effect */
